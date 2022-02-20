@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-register-style/reset.css">
+    <link rel="stylesheet" href="login-register-style/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>ProofHero | Register</title>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+</head>
+<body>
+    <div class="seciton">
+        <div class="register-section">
+            <div class="register-content">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="register-main-content">
+                    <h1 class="register-title">Register</h1>
+                    <a href="login.html" class="have-account-button">Already have an account ?</a>
+                    <div class="register-inputs-div">
+                        <div class="name-email-password-input-div">
+                            <label class="name-email-password-label">Name</label>
+                            <input type="text" class="name-email-password-input">
+                        </div>
+                        <div class="name-email-password-input-div">
+                            <label class="name-email-password-label">Email</label>
+                            <input type="email" class="name-email-password-input">
+                        </div>
+                        <div class="name-email-password-input-div">
+                            <label class="name-email-password-label">Password</label>
+                            <input type="password" class="name-email-password-input">
+                        </div>
+                        <!-- The captcha must repair beckend developer -->
+                        <div class="h-captcha" data-sitekey="your_site_key" data-size="normal"></div>
+                        <div class="terms-checkbox-div">
+                            <input type="checkbox" id="terms-checkbox" class="terms-checkbox">
+                            <label for="terms-checkbox" class="terms-label">i confirm that i have read and understood the
+                                 <span class="terms-and-codnitions">Terms and Conditions</span> and 
+                                 <span class="privacy-policy">Privacy Policy of the site</span>
+                            </label>
+                        </div>
+                        <div class="register-button-div">
+                            <button class="register-button">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commercial-section">
+            <h1 class="commercial-title">More customers, <br> more subscribers <br> and more <br> revenue.</h1>
+            <div class="piggy-img-div">
+                <img src="img/burgundy-piggy-bank.png" alt="piggy">
+            </div>
+            <div class="dashboard-img-div">
+                <img src="img/Dashboard 1.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

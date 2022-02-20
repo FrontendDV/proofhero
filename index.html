@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ProofHero</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <div class="profile">
+                <p class="arrow-icon">
+                    <i class="fa-solid fa-angle-down"></i>
+                </p>
+                <p class="user-name">
+                    Ahsan
+                </p>
+                <p class="profile-icons">
+                    <i class="fa-solid fa-user"></i>
+                </p>
+                <div class="hidden-property">
+                    <ul class="hidden-ul">
+                        <li class="hidden-li">
+                            <p class="hidden-icon">
+                                <i class="fa-solid fa-user-gear"></i>
+                                    Admin
+                            </p>
+                        </li>
+                        <li class="hidden-li">
+                            <p class="hidden-icon">
+                                <i class="fa-solid fa-circle-question"></i>
+                                    Help Center
+                            </p>
+                        </li>
+                        <li class="hidden-li">
+                            <p class="hidden-icon">
+                                <i class="fa-solid fa-cloud-moon"></i>
+                                 dark mode
+                            </p>
+                        </li>
+                        <li class="hidden-li">
+                            <a href="login.html" class="hidden-icon">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                    Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="top-line"></div>
+                <div class="middle-line"></div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="hamburger-menu-content">
+                <ul class="hidden-ul">
+                    <li class="hidden-li">
+                        <p class="hidden-icon">
+                            <i class="fa-solid fa-user-gear"></i>
+                                Admin
+                        </p>
+                    </li>
+                    <li class="hidden-li">
+                        <p class="hidden-icon">
+                            <i class="fa-solid fa-circle-question"></i>
+                                Help Center
+                        </p>
+                    </li>
+                    <li class="hidden-li">
+                        <p class="hidden-icon">
+                            <i class="fa-solid fa-cloud-moon"></i>
+                             dark mode
+                        </p>
+                    </li>
+                    <li class="hidden-li">
+                        <a href="login.html" class="hidden-icon">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                                Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <div class="content">
+        <!-- Side bar menu -->
+        <div class="side-bar-menu">
+                <ul class="side-bar-ul">
+                    <li class="side-bar-li">
+                        <a href="index.html" class="leptop-icon icon">
+                            <i class="fa-solid fa-laptop active-link"></i>
+                            <a href="index.html" class="icon-text active-link">dashboard</a>
+                        </a>
+                    </li>
+                    <li class="side-bar-li">
+                        <a href="plan.html" class="box-icon icon">
+                            <i class="fa-solid fa-box-open"></i>
+                            <a href="plan.html" class="icon-text">Plan</a>
+                        </a>
+                    </li>
+                    <li class="side-bar-li">
+                        <a href="account.html" class="screwdriver-icon icon">
+                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                            <a href="account.html" class="icon-text">Account</a>
+                        </a>
+                    </li>
+                    <li class="side-bar-li">
+                        <a href="payment.html" class="dollar-icon icon">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <a href="payment.html" class="icon-text">Payments</a>
+                        </a>
+                        
+                    </li>
+                    <li class="side-bar-li">
+                        <a href="api.html" class="credit-icon icon">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <a href="api.html" class="icon-text">API</a>
+                        </a>
+                        
+                    </li>
+                    <li class="side-bar-li">
+                        <a href="afilliate.html" class="volume-icon icon">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <a href="afilliate.html" class="icon-text">Affiliate</a>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        <!-- Dashboard main content -->
+        <div class="main-content  container">
+            <div class="dashboard-section">
+                <h1 class="dashboard-title">Dashboard</h1>
+                <div class="renew-update-div">
+                    <div class="current-plan">
+                        <div class="title">
+                            <h2 class="current-plan-title">Free Plan</h2>
+                        </div>
+                        <a href="upgradePlan.html" class="renew-update-button">Renew/Update</a>
+                    </div>
+                    <div class="impressions-stat">
+                        <p class="stat-paragraph">
+                            You have used
+                            <span class="percent-div">21%</span>
+                            impressions out of 50,000 this month
+                        </p>
+                    </div>
+                </div>
+                <div class="campaigns-div">
+                    <div class="campaigns-header-div">
+                        <h1 class="campaign-title">Campaigns</h1>
+                        <div class="filter-plus-campaign-div">
+                            <p class="filter-icon">
+                                <i class="fa-solid fa-filter"></i>
+                            </p>
+                            <button class="create-campaign">+ Create campaign</button>
+                        </div>
+                    </div>
+                    <div class="if-no-data">
+                        <div class="illustraion-when-data-no">
+                            <img src="img/No data ilustration.svg" alt="no-data-illustraion">
+                        </div>
+                        <h3 class="no-data-title">No data available..</h3>
+                            <p class="no-data-explain-text">
+                                There are no campaigns at the moment, why not create one?
+                            </p>
+                    </div>
+                    <div class="new-div">
+                        <div class="new-campaign-titles">
+                            <h1 class="new-campaign-title">Campaign</h1>
+                            <h1 class="new-campaign-title">Status</h1>
+                            <h1 class="new-campaign-title">Launched on</h1>
+                            <h1></h1>
+                        </div>
+                    </div>
+                    <div class="pop-up">
+                        <div class="popup-content">
+                            <div class="pop-up-header">
+                                <h1 class="pop-up-title">Create a new campaign</h1>
+                                <p class="close-icon">
+                                    X
+                                </p>
+                            </div>
+                            <div class="pop-up-input-div">
+                                <div class="name-input-div">
+                                    <label class="name-domain-label">Name</label>
+                                    <input type="email" class="name-domain-input" id="name-input">
+                                </div>
+                                <div class="domain-input-div">
+                                    <label class="name-domain-label">Domain/Subdomain</label>
+                                    <input type="password" class="name-domain-input" id="domain-input" placeholder="ex: domain.com or subdomain.com">
+                                </div>
+                                <p class="info">
+                                    The domain name of the website where the campaign is going to run.
+                                    Notifications will NOT work on other domains other than what you define here.
+                                </p>
+                                <div class="include-subdomain-div">
+                                    <div class="select-button-background">
+                                        <div class="select-button"></div>
+                                    </div>
+                                    <p>Include subdomains</p>
+                                </div>
+                                <p class="domain-info">
+                                    All the subdomains will match on this campaign as well if checked.
+                                </p>
+                                <button class="create-button">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    
+    <script src="js/main.js"></script>
+    <script src="js/hamburgeMenu.js"></script>
+</body>
+</html>

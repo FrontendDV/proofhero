@@ -1,0 +1,151 @@
+body{
+    font-family: "Poppins",sans-serif;
+    background-color: #f0f2f5;
+}
+/* Container */
+.container{
+    max-width: 60%;
+    margin: auto;
+}
+/* background red rectangle */
+.background-red-box{
+    width: 100%;
+    height: 40%;
+    background-color: #d82128;
+    position: absolute;
+    z-index: -1;
+}
+/* Logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+/* Login main content*/
+.login-main-content{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+}
+/* login title */
+.login-title{
+    font-size: 43.3px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+/* register suggestion */
+.register-suggestion{
+    font-size: 16.3;
+    color: black;
+}
+.register-button{
+    font-size: 16.3px;
+    color: #d82128;
+    cursor: pointer;
+}
+/* Inputs section */
+.inputs{
+    margin-top: 15px;
+}
+/* Email-password inputs div */
+.email-input-div,.password-input-div{
+    display: flex;
+    flex-direction: column;
+}
+/* email and password label */
+.email-password-label{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21.8px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+/* email and password inputs */
+.email-password-input{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    outline: none;
+    font-size: 18px;
+}
+/* lost passowrd  button*/
+.lost-password-button{
+    font-size: 15.3px;
+    color: #d82128;
+    cursor: pointer;
+}
+/* checkbox div */
+.checkbox-input{
+    margin-top: 25px;
+}
+/* checkbox input */
+.checkbox-input{
+    width: 15px;
+    height: 15px;
+}
+/* checkbox label */
+.checkbox-label{
+    font-size: 15.8px;
+    color: black;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* login button div*/
+.login-button-div{
+    display: flex;
+    justify-content: center;
+}
+/* login button */
+.login-button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d82128;
+    color: white;
+    font-size: 26.6px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+/* Resend activation button */
+.resend-activation-button{
+    display: flex;
+    justify-content: center;
+    font-size: 15.3px;
+    color: #717271;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+@media( max-width : 500px){
+    .login-main-content{
+        width: 100%;
+        padding: 30px;
+    }
+    .email-password-input{
+        padding: 15px;
+        font-size: 10px;
+    }
+    .lost-password-button{
+        font-size: 11px;
+    }
+    .login-button{
+        padding: 5px;
+        font-size: 20px;
+    }
+}

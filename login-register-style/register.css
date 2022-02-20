@@ -1,0 +1,161 @@
+body{
+    font-family: "Poppins",sans-serif;
+    background-color: #f0f2f5;
+    overflow-x: hidden;
+}
+/* Container */
+.container{
+    max-width: 60%;
+    margin: auto;
+}
+/* Main section */
+.seciton{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+/* register section */
+.register-section{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+/* register-content */
+.register-content{
+    padding: 25px 100px;
+}
+/* logo */
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+
+/* register main content */
+.register-main-content{
+    display: flex;
+    flex-direction: column;
+}
+/* register title */
+.register-title{
+    font-size: 39.6px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+/* already have account button */
+.have-account-button{
+    font-size: 16.7px;
+    color: #d82128;
+    margin-top: 20px;
+}
+/* Inputs div */
+.name-email-password-input-div{
+    display: flex;
+    flex-direction: column;
+}
+/* Labels */
+.name-email-password-label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+/* Inputs */
+.name-email-password-input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    outline: none;
+    font-size: 18px;
+}
+/* Captcha */
+.h-captcha{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* terms checkbox div */
+.terms-checkbox-div{
+    margin-top: 15px;
+    display: flex;
+}
+/* terms checkbox */
+.terms-checkbox{
+    width: 20px;
+    height: 20px;
+}
+/* terms label */
+.terms-label{
+    font-size: 12.4px;
+    color: black;
+    margin-left: 10px;
+}
+/* terms span elemetns wich is red color  */
+.terms-and-codnitions,.privacy-policy{
+    color: #d82128;
+}
+/* register button div */
+.register-button-div{
+    display: flex;
+    justify-content: center;
+}
+/* register button */
+.register-button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d82128;
+    color: white;
+    font-size: 26.6px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+/* Commercial section */
+.commercial-section{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+/* commercial title */
+.commercial-title{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    font-size: 55px;
+    color: #d82128;
+    position: absolute;
+    transform: translate(30%,40%);
+}
+/* piggy image */
+.piggy-img-div{
+    width: 150px;
+    transform: translate(40%,180%);
+}
+.piggy-img-div img{
+    width: 100%;
+}
+/* dashboard image */
+.dashboard-img-div{
+    width: 700px;
+    transform: translate(10%,50%);
+}
+.dashboard-img-div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width:500px){
+    .register-section{
+        width: 100%;
+    }
+    .commercial-section{
+        display: none;
+    }
+    .register-content{
+        padding: 25px 42px;
+    }
+}
